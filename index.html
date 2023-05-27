@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Gezinti - Ana Sayfa</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark px-5 d-none d-lg-block">
+        <div class="row gx-0">
+            <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>Küçükçekmece/İstanbul, Türkiye</small>
+                    <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>+90 534 879 5544</small>
+                    <small class="text-light"><i class="fa fa-envelope-open me-2"></i>gezinti@gmail.com</small>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center text-lg-end">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://twitter.com/zaimuniv?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><i class="fab fa-twitter fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://www.facebook.com/zaimuniv/?locale=tr_TR" target="_blank"><i class="fab fa-facebook-f fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://www.linkedin.com/school/zaimuniv/?original_referer=https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&originalSubdomain=tr" target="_blank"><i class="fab fa-linkedin-in fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://www.instagram.com/zaimuniv/" target="_blank"><i class="fab fa-instagram fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle" href="https://www.youtube.com/@izuniversite/featured" target="_blank"><i class="fab fa-youtube fw-normal"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+            <a href="index.html" class="navbar-brand p-0">
+                <h1 class="text-primary m-0"><i class="fa fa-map-marker-alt me-3"></i>Gezinti</h1>
+                <!-- <img src="img/logo.png" alt="Logo"> -->
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <a href="index.html" class="nav-item nav-link active">Ana Sayfa</a>
+                    <a href="about.html" class="nav-item nav-link">Hakkımızda</a>
+                    <a href="service.html" class="nav-item nav-link">Hizmetlerimiz</a>
+                    <a href="package.html" class="nav-item nav-link">Paketlerimiz</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Hızlı Erişim</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="destination.html" class="dropdown-item">Varış Noktaları</a>
+                            <a href="booking.php" class="dropdown-item">Rezervasyon</a>
+                            <a href="team.html" class="dropdown-item">Seyahat Rehberlerimiz</a>
+                            <a href="testimonial.html" class="dropdown-item">Referanslar</a>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">İletişim</a>
+                </div>
+                <a href="login_form.php" class="btn btn-primary rounded-pill py-2 px-4">Kayıt Ol</a>
+            </div>
+        </nav>
+
+        <div class="container-fluid bg-primary py-5 mb-5 hero-header">
+            <div class="container py-5">
+                <div class="row justify-content-center py-5">
+                    <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center">
+                        <h1 class="display-3 text-white mb-3 animated slideInDown">Seyahatlerinizi Bizimle Planlayın, Gezinti Size Eşlik Etsin</h1>
+                        <p class="fs-4 text-white mb-4 animated slideInDown">Gezinti, seyahatlerinizi kolaylaştıran bir rehberdir. İlgi alanlarınıza göre özelleştirilmiş sonuçları hızlıca bulun ve unutulmaz seyahat deneyimleri yaşayın.</p>
+                       
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar & Hero End -->
+
+
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/travel2.jpg" alt="" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <h6 class="section-title bg-white text-start text-primary pe-3">Hakkımızda</h6>
+                    <h1 class="mb-4">Gezinti'ye <span class="text-primary">Hoş Geldiniz</span></h1>
+                    <p class="mb-4">Biz, seyahat tutkunu insanlar olarak yola çıktık ve dünyayı keşfetmek için birbirinden farklı rotalarda geziler düzenliyoruz. Amacımız, seyahatseverlerin hayallerini gerçeğe dönüştürmek ve unutulmaz deneyimler yaşamalarını sağlamak.
+
+                    Gezinti olarak, her biri kendi alanında uzmanlaşmış deneyimli tur rehberleri ile çalışıyoruz. Gezilerimizde, yerel kültürleri, tarihi ve doğal güzellikleri keşfetmek için farklı aktiviteler ve etkinlikler düzenliyoruz. Ayrıca, misafirlerimizin konforlu bir şekilde seyahat etmeleri için özenle seçilmiş otellerde konaklama imkanı sunuyoruz.</p>
+
+                    <p class="mb-4">Bizim için en önemli şey, müşterilerimizin güvenliği ve memnuniyetidir. Bu nedenle, tüm gezilerimizde güvenliği ve hijyeni en üst düzeyde tutuyoruz. Ayrıca, müşteri memnuniyetini sağlamak için her zaman yanlarında olduğumuzu ve her türlü sorunlarını çözmek için elimizden geleni yaptığımızı belirtmek isteriz.
+
+                    Seyahat etmek, dünyayı keşfetmek, yeni kültürler ve insanlar tanımak bizim için bir tutku. Siz de bu tutkuya ortak olmak isterseniz, Gezinti ile unutulmaz bir seyahat deneyimi yaşayabilirsiniz.</p>
+                    <div class="row gy-2 gx-4 mb-4">
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Birinci Sınıf Uçuşlar</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Özenle Seçilmiş Oteller</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>5 Yıldızlı Konaklama</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Son Model Araçlar</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>150 Özel Şehir Turu</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>7/24 Hizmet</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+   <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Hizmetlerimiz</h6>
+                <h1 class="mb-5">Verdiğimiz Hizmetler</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item rounded pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-globe text-primary mb-4"></i>
+                            <h5>Dünya Çapında Turlar</h5>
+                            <p>
+                               Gezinti, dünya çapında birçok tur seçeneği sunarak seyahat etmek isteyenlerin hayallerini gerçekleştiriyor. Tarihi ve kültürel tur seçenekleriyle Avrupa'nın en güzel şehirlerinde yürüyüş yaparken, doğal güzellikleri keşfetmek isteyenler için Güney Amerika, Afrika ve Asya gibi yerlerde safari turları düzenliyor. Gastro tur programlarıyla dünya mutfaklarından lezzetler sunan Gezinti, aynı zamanda macera tutkunları için de çeşitli seçenekler sunuyor. Uzman rehberler eşliğinde gerçekleştirilen bu turlar, seyahatseverlerin unutulmaz anılar biriktirmelerini sağlıyor.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item rounded pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-hotel text-primary mb-4"></i>
+                            <h5>Otel Rezervasyonu</h5>
+                            <p>Gezinti sayesinde dünya genelinde binlerce otel seçeneği arasından seçim yapabilir, uygun fiyatlarla konaklayabilirsiniz. Her bütçeye uygun otel seçenekleri sunan Gezinti, yüksek standartlarda hizmet sunan lüks otellerden, uygun fiyatlı butik otellere kadar birçok seçenek sunuyor. Konaklama yerlerinin özellikleri ve yakındaki turistik yerlere olan mesafeleri gibi ayrıntıları gösteren detaylar da mevcuttur. Gezinti,seyahatseverlerin konaklama tercihlerine uygun otel seçenekleri sunarak, tatil ya da iş gezileri için ideal bir seyahat planı oluşturmalarına yardımcı oluyor.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item rounded pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-user text-primary mb-4"></i>
+                            <h5>Seyahat Rehberlerimiz</h5>
+                            <p>
+                               Gezinti,rehberleriyle seyahatseverler için her türlü bilgiyi sunuyor. Rehberler, seyahat etmek istediğiniz destinasyon hakkında detaylı bilgiler veriyor. Yeme içme, konaklama, turistik yerler, aktiviteler,alışveriş ve daha birçok konuda size yardımcı oluyorlar. Ayrıca, rehberlerde yerel halkın kültürü, dil ve gelenekleri hakkında da bilgi bulabilirsiniz.
+                               Seyahat rehberleri, keşfetmek istediğiniz şehirlerdeki en iyi restoranları ve diğer eğlence mekanlarını da size önerir. Ayrıca, seyahat edeceğiniz zaman dilimine göre, etkinlikler, festivaller ve diğer yerel etkinlikler hakkında da size bilgi sunarlar.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item rounded pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-cog text-primary mb-4"></i>
+                            <h5>Etkinlik Yönetimi</h5>
+                            <p>Gezinti, seyahatseverler için etkinlik yönetimi hizmeti sunarak seyahat deneyimlerini daha da keyifli hale getiriyor. Etkinlik yönetimi, seyahatleriniz sırasında katılabileceğiniz konserler, festivaller, spor etkinlikleri, sanat sergileri gibi birçok etkinliğe erişmenizi sağlıyor.
+
+                            Etkinlik yönetimi hizmeti, seyahatlerinizi daha renkli ve eğlenceli hale getirerek unutulmaz anılar biriktirmenize yardımcı oluyor. Gezi web sitesi, seyahatseverlerin etkinliklerle dolu bir seyahat planı oluşturmalarına yardımcı olarak seyahat deneyimlerini daha keyifli hale getiriyor.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Destination Start -->
+    <div class="container-xxl py-5 destination">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Varış Noktaları</h6>
+                <h1 class="mb-5">Popüler Varış Noktaları</h1>
+            </div>
+            <div class="row g-3">
+                <div class="col-lg-7 col-md-6">
+                    <div class="row g-3">
+                        <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
+                            <a class="position-relative d-block overflow-hidden" href="isvicre.html">
+                                <img class="img-fluid" src="img/isviçre2.jpg" alt="">
+                                <div class="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">15% İNDİRİM</div>
+                                <div class="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">İSVİÇRE</div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
+                            <a class="position-relative d-block overflow-hidden" href="kanada.html">
+                                <img class="img-fluid" src="img/kanada2.jpg" alt="">
+                                <div class="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">25% İNDİRİM</div>
+                                <div class="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">KANADA</div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
+                            <a class="position-relative d-block overflow-hidden" href="kazakistan.html">
+                                <img class="img-fluid" src="img/kazakistan.jpg" alt="">
+                                <div class="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">35% İNDİRİM</div>
+                                <div class="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">KAZAKİSTAN</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
+                    <a class="position-relative d-block h-100 overflow-hidden" href="italya.html">
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/italya3.jpg" alt="" style="object-fit: cover;">
+                        <div class="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">20% İNDİRİM</div>
+                        <div class="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">İTALYA</div>
+                    </a>
+                </div>
+            </div>
+
+
+
+        <a class="position-relative d-block overflow-hidden" href="">
+            <div class="row g-3">
+                <div class="col-lg-7 col-md-6">
+                    <div class="row g-3">
+                        <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
+                            <a class="position-relative d-block overflow-hidden" href="kore.html">
+                                <img class="img-fluid" src="img/kore3.jpg" alt="">
+                                <div class="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">40% İNDİRİM</div>
+                                <div class="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">GÜNEY KORE</div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
+                            <a class="position-relative d-block overflow-hidden" href="finlandiya.html">
+                                <img class="img-fluid" src="img/Finlandiya.jpg" alt="">
+                                <div class="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">5% İNDİRİM</div>
+                                <div class="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">FİNLANDİYA</div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
+                            <a class="position-relative d-block overflow-hidden" href="ozbekistan.html">
+                                <img class="img-fluid" src="img/özbekistan3.jpg" alt="">
+                                <div class="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">30% İNDİRİM</div>
+                                <div class="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">ÖZBEKİSTAN</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
+                    <a class="position-relative d-block h-100 overflow-hidden" href="japonya.html">
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/japonya5.jpeg" alt="" style="object-fit: cover;">
+                        <div class="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">10% İNDİRİM</div>
+                        <div class="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">JAPONYA</div>
+                    </a>
+                </div>
+            </div>
+        </a>
+    </div>
+</div>
+    <!-- Destination Start -->
+
+
+    <!-- Package Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Paketlerimiz</h6>
+                <h1 class="mb-5">Sonsuz Keşifler, Sınırsız Eğlence: Tur Paketlerimizle Tanışın</h1>
+            </div>
+
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="package-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/isviçre2.jpg" alt="">
+                        </div>
+                        <div class="d-flex border-bottom">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>İsviçre</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>5 gün</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>2 Kişilik</small>
+                        </div>
+                        <div class="text-center p-4">
+                            <h3 class="mb-0">1.750€</h3>
+                            <div class="mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                            </div>
+                            <p>Doğal güzellikleri, tarihi yapıları ve dünya çapında ünlü kültürüyle İsviçre'yi keşfetmek isteyen çiftler için tasarlanmış 5 günlük tur paketimizle unutulmaz bir tatil deneyimi yaşayabilirsiniz. Turumuz, tarihi Zürih şehrinden başlıyor ve Interlaken'deki Alpler'in büyüleyici manzarasında rahatlatıcı bir mola veriyor. Turumuzun son durağı, Cenevre'deki tarihi yerler, müzeler ve dünyaca ünlü şarapları keşfedeceğiniz harika bir yerdir.
+                            Tur paketimiz, 2 kişilik konforlu odaları, tüm ulaşım ve tur rehberliği dahil olmak üzere her detayın düşünüldüğü bir pakettir. İsviçre'nin doğal güzellikleri eşliğinde unutulmaz bir tatil deneyimi yaşayacaksınız. Bu tur, size İsviçre'nin kültürü, tarihi ve doğal güzelliklerini yakından tanıma fırsatı sunacak ve çiftler için romantik bir kaçamak olacak.</p>
+                            <div class="d-flex justify-content-center mb-2">
+                                <a href="isvicre.html" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Daha Fazla Okumak İçin Tıklayın</a>
+                                <a href="#booking" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Şimdi Rezervasyon Yaptır</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="package-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/kanada2.jpg" alt="">
+                        </div>
+                        <div class="d-flex border-bottom">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Kanada</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>8 gün</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>2 Kişilik</small>
+                        </div>
+                        <div class="text-center p-4">
+                            <h3 class="mb-0">4.250$</h3>
+                            <div class="mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                            </div>
+                            <p>Kanada'yı keşfetmek için unutulmaz bir 8 günlük tatil fırsatı burada! Bu tur, iki kişilik bir gezgin grubu için tasarlanmış ve Kanada'nın en ünlü şehirlerini ve doğal güzelliklerini keşfetmek için mükemmel bir fırsat sunuyor. Tur, Toronto'daki CN Kulesi, Niagara Şelaleleri ve Kanada'nın başkenti Ottawa'daki Parlamento Binası gibi popüler yerleri ziyaret ederken, Jasper ve Banff Milli Parkları'nda yer alan doğal güzelliklerin tadını çıkarmanız için de zaman ayırıyor. Yolculuğunuz boyunca, Kanada'nın zengin kültürüne, tarihi yerlerine ve nefes kesen manzaralarına şahit olacaksınız. Tur paketimiz, konforlu konaklama, tüm ulaşım ve tur rehberliği dahil olmak üzere her detayın düşünüldüğü bir pakettir. Kanada'nın bu tur paketini kaçırmayın ve unutulmaz anılar biriktirerek tatilinizin keyfini çıkartın ! </p>
+                            <div class="d-flex justify-content-center mb-2">
+                                <a href="kanada.html" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Daha Fazla Okumak İçin Tıklayın</a>
+                                <a href="#booking" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Şimdi Rezervasyon Yaptır</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="package-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/kazakistan.jpg" alt="">
+                        </div>
+                        <div class="d-flex border-bottom">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Kazakistan</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>4 gün</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>3 Kişilik</small>
+                        </div>
+                        <div class="text-center p-4">
+                            <h3 class="mb-0">2.650$</h3>
+                            <div class="mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                            </div>
+                            <p>Kazakistan'ın güzelliklerini keşfetmek için hazırladığımız 4 günlük tur paketi ile Asya'nın kalbinde unutulmaz bir maceraya hazır olun. Turumuz, modern başkent Astana'dan başlayacak ve ülkenin tarihi ve kültürel zenginliklerini keşfetmek için fırsat sunacak. Şehir turumuzda Bayterek Kulesi, Hazret Sultan Camii ve Khan Shatyr Alışveriş Merkezi'ni ziyaret edeceksiniz.Turumuzun sonraki durağı, Kazakistan'ın güneyinde yer alan Almatı'dır.Altın Orda Müzesi, Kok Tobe Dağı ve Zenkov Katedrali gibi tarihi - kültürel yerleri ziyaret edeceksiniz. Son durağımız ise, Balkaş Gölü'dür. Tur, konforlu konaklama, öğle yemekleri ve tur boyunca ulaşım dahil olmak üzere birçok olanak sunuyor. Ayrıca, Kazak kültürü hakkında eşsiz bir bilgi sağlayacak. Kazakistan'ın bu tur paketini kaçırmayın!</p>
+                            <div class="d-flex justify-content-center mb-2">
+                                <a href="kazakistan.html" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Daha Fazla Okumak İçin Tıklayın</a>
+                                <a href="#booking" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Şimdi Rezervasyon Yaptır</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="package-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/kore3.jpg" alt="">
+                        </div>
+                        <div class="d-flex border-bottom">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Güney Kore</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>5 gün</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>5 Kişilik</small>
+                        </div>
+                        <div class="text-center p-4">
+                            <h3 class="mb-0">3.950$</h3>
+                            <div class="mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                            </div>
+                            <p>Güney Kore, Asya'nın en modern ve ilginç ülkelerinden biridir ve birçok turist için heyecan verici bir seyahat noktasıdır. 5 günlük bir tatil için ideal bir seçenek olan Güney Kore turu, size ülkenin eşsiz kültürünü, zengin tarihini ve lezzetli mutfağını keşfetme fırsatı sunar. Bu 5 kişilik tur paketi, Seul, Busan ve Jeju gibi popüler şehirleri ziyaret ederek Kore'nin farklı yönlerini keşfetmenizi sağlar. Seul'de Gyeongbokgung Sarayı, Namsan Kulesi ve Myeong-dong gibi yerleri ziyaret edebilirsiniz. Busan'da Haeundae Plajı, Jagalchi Balıkçı Pazarı ve Gamcheon Küçük Venedik'i görmenizi öneririz. Jeju Adası'nda doğal güzellikleri ve tarihi tapınakları keşfedin. Kore mutfağına doyacağınız turumuzda Kore yemekleri ve içkilerini tadabilirsiniz. Bu tur, Kore'nin zengin kültürünü ve güzelliklerini keşfetmek isteyen herkes için mükemmel bir fırsattır.</p>
+                            <div class="d-flex justify-content-center mb-2">
+                                <a href="kore.html" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Daha Fazla Okumak İçin Tıklayın</a>
+                                <a href="#booking" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Şimdi Rezervasyon Yaptır</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="package-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/Finlandiya.jpg" alt="">
+                        </div>
+                        <div class="d-flex border-bottom">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Finlandiya</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>4 gün</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>4 Kişilk</small>
+                        </div>
+                        <div class="text-center p-4">
+                            <h3 class="mb-0">5.500€</h3>
+                            <div class="mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                            </div>
+                            <p>Haydi, Finlandiya'nın büyüleyici dünyasını keşfetmeye hazır olun! Bu 4 günlük tur paketi, sizi kuzeyin büyülü güzellikleriyle tanıştırmak için tasarlandı. Helsinki'de başlayacak olan maceramızda, modern bir başkentin cazibesini deneyimleyeceksiniz. Ardından, Rovaniemi'ye doğru ilerleyeceğiz ve ünlü Noel Baba köyünü ziyaret ederek gerçek bir kuzey macerasına adım atacağız. Laponya'nın büyüleyici ormanları, berrak gölleri ve buzulları sizi bekliyor. Husky köpekleriyle yapılan bir kızak gezintisi ve kuzey ışıklarının büyüleyici dansı, unutulmaz anılarınız arasına katılacak. Son durağımız ise muhteşem Kemi, burada SnowCastle'da büyülü bir buz otel deneyimi yaşayacaksınız. Konforlu konaklama ve yerel lezzetlerle dolu bu tur paketi, size unutulmaz bir Finlandiya macerası sunacak. Hemen yerinizi ayırtın ve bu benzersiz seyahate katılın!</p>
+                            <div class="d-flex justify-content-center mb-2">
+                                <a href="finlandiya.html" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Daha Fazla Okumak İçin Tıklayın</a>
+                                <a href="#booking" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Şimdi Rezervasyon Yaptır</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="package-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/özbekistan3.jpg" alt="">
+                        </div>
+                        <div class="d-flex border-bottom">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Özbekistan</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>7 gün</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>6 Kişilik</small>
+                        </div>
+                        <div class="text-center p-4">
+                            <h3 class="mb-0">7.800$</h3>
+                            <div class="mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                            </div>
+                            <p>Keşif dolu bir macera için Özbekistan turu sizi bekliyor! 7 gün boyunca, 6 kişilik özel bir grupla birlikte bu tarihi ve kültürel zenginliklerle dolu ülkeyi keşfedeceksiniz. İlk durağınız başkent Taşkent, modern binaları ve tarihi eserleriyle sizi büyüleyecek. Sonrasında Samarkand'a yolculuk yapacak ve İpek Yolu'nun eşsiz güzelliklerini keşfedeceksiniz. Registan Meydanı'nda yer alan görkemli medreseler, şahane mozaiklerle bezenmiş. Buhara, Orta Asya'nın en eski şehirlerinden biri ve camileri, sarayları ve pazarlarıyla büyüleyici bir atmosfer sunuyor. Son olarak, Hiva'yı ziyaret ederek, orada bulunan antik şehir Khiva'da geçmişe yolculuk yapacaksınız. Özbek mutfağının lezzetleri ve misafirperver insanlarıyla unutulmaz bir deneyim sizi bekliyor. Özbekistan turu, tarihin büyüsüyle sarılmış bir yolculuk sunuyor.</p>
+                            <div class="d-flex justify-content-center mb-2">
+                                <a href="ozbekistan.html" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Daha Fazla Okumak İçin Tıklayın</a>
+                                <a href="#booking" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Şimdi Rezervasyon Yaptır</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="package-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/italya4.jpg" alt="">
+                        </div>
+                        <div class="d-flex border-bottom">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>İtalya</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>8 gün</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>2 Kişilik</small>
+                        </div>
+                        <div class="text-center p-4">
+                            <h3 class="mb-0">2.400€</h3>
+                            <div class="mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                            </div>
+                            <p>Haydi, unutulmaz bir İtalya macerasına katılın! Bu 8 günlük turda, tarihi ve gastronomik zenginliklerle dolu İtalya'nın büyüleyici yerlerini keşfedeceksiniz. Roma'nın antik ruhunu soluyarak Colosseum ve Pantheon'u ziyaret edeceksiniz. Ardından, Venedik'in büyülü kanallarında gondol turu yaparak romantizme kapılacaksınız. Floransa'nın Michelangelo'nun heykelleriyle süslü Uffizi Galerisi'nde sanatın büyüsüne kendinizi kaptıracaksınız. Ve son olarak, Napoli'de gerçek İtalyan pizzasıyla damaklarınız şenlenecek. Bu unutulmaz deneyimi paylaşabileceğiniz 2 kişilik bir tur, hayallerinizi gerçeğe dönüştürecek! Rezervasyonlarınızı hemen yapın ve İtalya'nın büyülü atmosferine hazır olun!</p>
+                            <div class="d-flex justify-content-center mb-2">
+                                <a href="italya.html" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Daha Fazla Okumak İçin Tıklayın</a>
+                                <a href="#booking" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Şimdi Rezervasyon Yaptır</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="package-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/japonya4.jpg" alt="">
+                        </div>
+                        <div class="d-flex border-bottom">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Japonya</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>9 gün</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>3 Kişilik</small>
+                        </div>
+                        <div class="text-center p-4">
+                            <h3 class="mb-0">5.000$</h3>
+                            <div class="mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                            </div>
+                            <p>Keşfedilmeyi bekleyen gizemli Japonya'yı 9 günlük bir tur ile deneyimleyin! Bu eşsiz yolculuğa, 3 kişilik grupla beraber çıkın ve unutulmaz anılar biriktirin. Geleneksel ile modernin mükemmel uyumunu keşfedeceğiniz bu tur, Japonya'nın muhteşem bir tatil deneyimi sunuyor. Tokyo'nun gökdelenleri arasında kaybolun, Asakusa Tapınağı'nın mistik atmosferini hissedin ve Shibuya'nın canlılığını yaşayın. Ardından, antik Kyoto'ya adım atın ve Altın Tapınak'ta huzur bulun. Geisha'nın zarafetini gözlemlemek için Gion mahallesini ziyaret edin. Son olarak, Hiroşima'da barış mesajını hissedin ve Itsukushima Tapınağı'nın büyüsüne kapılın. Bu tur, Japonya'nın zengin kültürünü yoğun bir şekilde deneyimlemenize olanak tanıyacak.</p>
+                            <div class="d-flex justify-content-center mb-2">
+                                <a href="japonya.html" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Daha Fazla Okumak İçin Tıklayın</a>
+                                <a href="#booking" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Şimdi Rezervasyon Yaptır</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Package End -->
+
+
+    <!-- Booking Start -->
+    <div id="booking" class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="booking p-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-md-6 text-white">
+                        <h6 class="text-white text-uppercase">Rezervasyon</h6>
+                        <h1 class="text-white mb-4">Online Rezervasyon</h1>
+                        <p class="mb-4">Seyahat planlarınızın kontrolünü elinize alın. Rezervasyonlarınızı online olarak yönetin.</p>
+                        <p class="mb-4">Varış noktanızı, seyahat tarihlerinizi ve kişsel bilgilerinizi girin. Size en uygun paketleri arayın ve seçiminizi yapın. Özel yemek siparişi ya da otel, araba kiralama ya da özel şoför hizmeti gibi hizmetleri "Özel İstekler" bölümünde belirtebilirsiniz. Tüm paket bilgilerinizi ve rezervasyon onayınızı e‑posta ile alın. Rezervasyon referans numaranızla hesabınıza online giriş yaparak seyahat planlarınızı yönetin.</p>
+                        
+                    </div>
+                    <div class="col-md-6">
+                        <h1 class="text-white mb-4">Tur Satın Al</h1>
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control bg-transparent" id="name" placeholder="Adınız ve Soyadınız">
+                                        <label for="name">Adınız ve Soyadınız</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control bg-transparent" id="email" placeholder="Email Adresiniz">
+                                        <label for="email">Email Adresiniz</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating date" id="date3" data-target-input="nearest">
+                                        <input type="text" class="form-control bg-transparent datetimepicker-input" id="datetime" placeholder="Date & Time" data-target="#date3" data-toggle="datetimepicker" />
+                                        <label for="datetime">Tarih & Saat</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <select class="form-select bg-transparent" id="select1">
+                                            <option value="1">Varış noktası seçiniz</option>
+                                            <option value="2">İsviçre</option>
+                                            <option value="3">Kanada</option>
+                                            <option value="4">Kazakistan</option>
+                                            <option value="5">Güney Kore</option>
+                                            <option value="6">Finlandiya</option>
+                                            <option value="7">Özbekistan</option>
+                                            <option value="8">İtalya</option>
+                                            <option value="9">Japonya</option>
+                                        </select>
+                                        <label for="select1">Varış Noktaları</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea class="form-control bg-transparent" placeholder="Special Request" id="message" style="height: 100px"></textarea>
+                                        <label for="message">Özel İstekler</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                
+                                    <a class="btn btn-outline-light w-100 py-3" href="booking.php" type="submit">Rezervasyon Yap</a>
+                                
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Booking Start -->
+
+
+    <!-- Process Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center pb-4 wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Süreç</h6>
+                <h1 class="mb-5">3 Kolay Adım</h1>
+            </div>
+            <div class="row gy-5 gx-4 justify-content-center">
+                <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="position-relative border border-primary pt-5 pb-4 px-4">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-primary rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 100px; height: 100px;">
+                            <i class="fa fa-globe fa-3x text-white"></i>
+                        </div>
+                        <h5 class="mt-4">Bir Hedef Seçin</h5>
+                        <hr class="w-25 mx-auto bg-primary mb-1">
+                        <hr class="w-50 mx-auto bg-primary mt-0">
+                        <p class="mb-0">Sehayat etmek istediğiniz yerleri sitemizden araştırıp, hangi paketi seçeçeğinize kolayca karar verebilirsiniz.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="position-relative border border-primary pt-5 pb-4 px-4">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-primary rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 100px; height: 100px;">
+                            <i class="fa fa-dollar-sign fa-3x text-white"></i>
+                        </div>
+                        <h5 class="mt-4">Çevrim içi Ödeme</h5>
+                        <hr class="w-25 mx-auto bg-primary mb-1">
+                        <hr class="w-50 mx-auto bg-primary mt-0">
+                        <p class="mb-0">Size uygun olan paketi bulduktan sonra ödeme işlemini kolay ve hızlıca online şekilde sistemimiz üzerinden gerçekleştirebilirsiniz.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="position-relative border border-primary pt-5 pb-4 px-4">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-primary rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 100px; height: 100px;">
+                            <i class="fa fa-plane fa-3x text-white"></i>
+                        </div>
+                        <h5 class="mt-4">Anında Uç</h5>
+                        <hr class="w-25 mx-auto bg-primary mb-1">
+                        <hr class="w-50 mx-auto bg-primary mt-0">
+                        <p class="mb-0">Ödeme işleminizi gerçekleştirdikten sonra seçtiğiniz tarihler arasında uçuşa hazırsınız. Tatilinizin keyfini çıkartabilirsiniz.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Process Start -->
+
+
+    <!-- Team Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Seyahat Rehberlerimiz</h6>
+                <h1 class="mb-5">Rehberlerimizle Tanışın</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-1.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
+                            <a class="btn btn-square mx-1" href="https://www.facebook.com/zaimuniv/?locale=tr_TR" target="_blank" ><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1" href="https://twitter.com/zaimuniv?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" ><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square mx-1" href="https://www.instagram.com/zaimuniv/" target="_blank" ><i class="fab fa-instagram"></i></a>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Bora Soysal</h5>
+                            <small>Bora, tarih ve kültürle ilgili bilgi dolu bir gezi rehberidir. Anlattığı hikayeler ve bölgenin geçmişi hakkındaki bilgisi ile müşterilerinin tarihi yerleri daha iyi anlamalarına yardımcı olur. Ayrıca yöresel yemekleri tatma fırsatı da sunar.</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-2.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
+                            <a class="btn btn-square mx-1" href="https://www.facebook.com/zaimuniv/?locale=tr_TR" target="_blank" ><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1" href="https://twitter.com/zaimuniv?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" ><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square mx-1" href="https://www.instagram.com/zaimuniv/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Süreyya Engin</h5>
+                            <small>Süreyya, heyecan verici maceralar sunan genç bir gezi rehberidir. Her zaman yüksek enerjisi ve pozitif tutumuyla müşterilerini etkileyen Süreyya, tarihi yerler ve doğal güzellikler arasında özelleştirilmiş turlar düzenler.</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-3.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
+                            <a class="btn btn-square mx-1" href="https://www.facebook.com/zaimuniv/?locale=tr_TR" target="_blank" ><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1" href="https://twitter.com/zaimuniv?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" ><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square mx-1" href="https://www.instagram.com/zaimuniv/" target="_blank" ><i class="fab fa-instagram"></i></a>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Alperen Ercan</h5>
+                            <small>Alperen, lüks gezi turları konusunda uzman bir gezi rehberidir. Yüksek kaliteli otellerde konaklama, özel yemekler ve VIP turlar gibi deneyimler sunar. Müşterileriyle birebir ilgilenir ve onların isteklerine özelleştirilmiş turlar düzenler.</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-4.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
+                            <a class="btn btn-square mx-1" href="https://www.facebook.com/zaimuniv/?locale=tr_TR" target="_blank" ><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1" href="https://twitter.com/zaimuniv?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" ><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square mx-1" href="https://www.instagram.com/zaimuniv/" target="_blank" ><i class="fab fa-instagram"></i></a>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Nursena Aydın</h5>
+                            <small>Nursena, doğa ve yürüyüş turları konusunda uzmanlaşmış bir gezi rehberidir. Yamaç paraşütü ve dağ tırmanışı gibi açık hava etkinlikleri için sizi en iyi yerlere götürür ve doğal güzelliklerin tadını çıkarmalarınızı sağlar.</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team55.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
+                            <a class="btn btn-square mx-1" href="https://www.facebook.com/zaimuniv/?locale=tr_TR" target="_blank" ><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1" href="https://twitter.com/zaimuniv?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" ><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square mx-1" href="https://www.instagram.com/zaimuniv/" target="_blank" ><i class="fab fa-instagram"></i></a>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Emre Yaman</h5>
+                            <small>Emre, teknoloji ve inovasyon turları konusunda uzmanlaşmış bir gezi rehberidir. Dünya genelindeki teknoloji merkezlerine, inovasyon laboratuvarlarına ve girişimcilik merkezlerine turlar düzenler ve müşterilerine geleceğin teknolojisi hakkında bilgi verir.</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team77.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
+                            <a class="btn btn-square mx-1" href="https://www.facebook.com/zaimuniv/?locale=tr_TR" target="_blank" ><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1" href="https://twitter.com/zaimuniv?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" ><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square mx-1" href="https://www.instagram.com/zaimuniv/" target="_blank" ><i class="fab fa-instagram"></i></a>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Zeynep Doğu</h5>
+                            <small>Zeynep, yerel kültürlerin keşfedilmesi ve yeni yemeklerin tadına bakılması konusunda tutkulu bir gezi rehberidir. Yerel pazarları ve sokak yemeklerini tanıtmakla kalmayıp, müşterilerini aynı zamanda yöresel mutfak dersleri ve yemek yapma deneyimleriyle de tanıştırır.</small>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="text-center">
+                <h6 class="section-title bg-white text-center text-primary px-3">Referanslar</h6>
+                <h1 class="mb-5">Müşterilerimiz Diyor Ki!!!</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel position-relative">
+                <div class="testimonial-item bg-white text-center border p-4">
+                    <img class="bg-white rounded-circle shadow p-1 mx-auto mb-3" src="img/kisi11.jpg" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Maat Hor</h5>
+                    <p>Kahire, Mısır</p>
+                    <p class="mb-0">Gezinti'deki gezi rehberleri gerçekten harika! Gitmek istediğim yerler hakkında bilgi edinmek ve aktiviteleri planlamak için harika bir kaynak oldu. Ayrıca, yerel yemekler hakkında öneriler de aldım ve gerçekten harika restoranlar keşfettim. Gezinti sayesinde unutulmaz bir tatil geçirdim. Bu site seyahatseverler için gerçekten harika bir seçenek :)</p>
+                </div>
+                <div class="testimonial-item bg-white text-center border p-4">
+                    <img class="bg-white rounded-circle shadow p-1 mx-auto mb-3" src="img/kisi22.jpg" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Ahmet Demir</h5>
+                    <p>İstanbul, Türkiye</p>
+                    <p class="mt-2 mb-0">Gezinti gerçekten harika bir deneyim sunuyor. Seyahat planlama sürecinde bize çok yardımcı oldular ve en uygun uçuş ve konaklama seçeneklerini bulmamıza yardımcı oldular. Ayrıca,herhangi bir sorunla karşılaştığımızda, hızlı bir şekilde yanıt verdiler ve sorunu çözmek için ellerinden geleni yaptılar. Kesinlikle Gezinti'yi herkese tavsiye ediyorum.</p>
+                </div>
+                <div class="testimonial-item bg-white text-center border p-4">
+                    <img class="bg-white rounded-circle shadow p-1 mx-auto mb-3" src="img/kisi44.jpg" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Annisa Putri</h5>
+                    <p>Cakarta, Endonezya</p>
+                    <p class="mt-2 mb-0">Gezinti gerçekten kullanımı kolay ve çok bilgilendirici bir site olmuş. Birkaç dakika içinde bir tatil planlamak için tüm gereken bilgileri buldum. Ayrıca birkaç yerde kafama takılan soruları da mail yoluyla iletişime geçerek öğrendim. Site çok güncel ve her zaman yeni yerler keşfetmek için farklı öneriler sunuyor. Kesinlikle tekrar kullanacağım ve herkese tavsiye ederim.</p>
+                </div>
+                <div class="testimonial-item bg-white text-center border p-4">
+                    <img class="bg-white rounded-circle shadow p-1 mx-auto mb-3" src="img/kisi55.jpg" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Emma Perry</h5>
+                    <p>Montreal, Kanada</p>
+                    <p class="mt-2 mb-0">Gezinti, tüm seyahat planlama sürecimi son derece kolaylaştırdı. Rezervasyonlarımı ve biletlerimi hızlı ve kolay bir şekilde yapabildim ve seyahatim sırasında herhangi bir sorunla karşılaşmadım. Ayrıca, web sitesindeki rehberler gerçekten çok bilgilendiriciydi ve seyahatim boyunca farklı yerleri keşfetmeme yardımcı oldular.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+        
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Kurumsal</h4>
+                    <a class="btn btn-link" href="about.html">Hakkımızda</a>
+                    <a class="btn btn-link" href="contact.html">İletişim</a>
+                    <a class="btn btn-link" href="privacy.html">Gizlilik Politikası</a>
+                    <a class="btn btn-link" href="term.html">Kullanım Koşulları</a>
+                    <a class="btn btn-link" href="helpfaqs.html">SSS & Yardım</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Bize Ulaşın</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Halkalı Merkez, Halkalı, 34303 Küçükçekmece/İstanbul</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+90 534 879 5544</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>gezinti@gmail.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://twitter.com/zaimuniv?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><i class="fab fa-twitter fw-normal"></i></a>
+                        <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://www.facebook.com/zaimuniv/?locale=tr_TR" target="_blank"><i class="fab fa-facebook-f fw-normal"></i></a>
+                        <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://www.linkedin.com/school/zaimuniv/?original_referer=https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&originalSubdomain=tr" target="_blank"><i class="fab fa-linkedin-in fw-normal"></i></a>
+                        <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://www.instagram.com/zaimuniv/" target="_blank"><i class="fab fa-instagram fw-normal"></i></a>
+                        <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle" href="https://www.youtube.com/@izuniversite/featured" target="_blank"><i class="fab fa-youtube fw-normal"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Galeri</h4>
+                    <div class="row g-2 pt-2">
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/paris.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/istanbul.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/mısır.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/isvicre2.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/roma.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/japonya3.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Haber Bülteni</h4>
+                    <p>Haberlerimizden ve kampanyalarımızdan faydalanmak için email yoluyla kaydolabilirsiniz.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Email adresinizi giriniz">
+                        <a href="login_form.php">
+                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Kayıt Ol</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="index.html">Gezinti</a>, Bütün Hakları Saklıdır. Nursena Aydın ve Süreyya Engin tarafından dizayn edilmiştir.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="index.html">Ana Sayfa</a>
+                            <a href="cookies.html">Çerez Politikası</a>
+                            <a href="helpfaqs.html">Yardım</a>
+                            <a href="helpfaqs.html">SSS</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
